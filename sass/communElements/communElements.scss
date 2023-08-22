@@ -10,7 +10,9 @@
 }
 
 .container00{
-    min-width: 100vh;
+    min-height: 100vh;
+    min-width: 100vw;
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -61,6 +63,8 @@ a{
 
 //Media query
 
+
+
 @media (max-width:450px){
     .logoPc{
         width: 180px;
@@ -70,6 +74,15 @@ a{
     .footer{
         font-size: 10px;
     }
+}
+
+@media  screen and (max-width:449px) {
+    .downloadDesc{
+        button{
+            margin: 10px 0px;
+        }
+    }
+    
 }
 
 @media (max-width:350px){
