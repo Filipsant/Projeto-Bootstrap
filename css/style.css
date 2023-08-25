@@ -311,7 +311,7 @@ a:hover {
   align-items: center;
 }
 .container01Content .titleHuman {
-  font-size: 120px;
+  font-size: 90px;
 }
 .container01Content .subTitleHuman {
   margin-top: 20px;
@@ -359,13 +359,17 @@ a:hover {
   padding-top: 15%;
 }
 
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1020px) {
+  .container01Content .titleHuman {
+    font-size: 70px;
+    font-weight: 400;
+  }
   .container01Content h1 {
-    font-size: 90px;
+    font-size: 30px;
   }
   .container01Content p {
     margin: 20px 0px;
-    font-size: 30px;
+    font-size: 15px;
     font-weight: 300;
   }
   .container00 {
@@ -381,16 +385,16 @@ a:hover {
     margin-bottom: 40px;
   }
 }
-@media (max-width: 425px) {
-  .container00 {
-    height: 100vh;
-    width: 100vw;
-  }
+@media only screen and (max-width: 375px) {
   .container01Content h1 {
-    font-size: 40px;
+    font-size: 10px;
   }
   .container01Content p {
-    font-size: 16px;
+    font-size: 10px;
+  }
+  .container01Content .titleHuman {
+    font-size: 40px;
+    font-weight: 500;
   }
   .arrowDown {
     display: none;

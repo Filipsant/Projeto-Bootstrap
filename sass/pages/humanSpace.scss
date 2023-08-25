@@ -30,7 +30,7 @@
     align-items: center;
 
     .titleHuman{
-        font-size: 120px;
+        font-size: 90px;
     }
 
     .subTitleHuman{
@@ -86,15 +86,21 @@
   }
 
 
-  @media (max-width: 1024px) {
+  @media only screen and (max-width: 1020px) {
     .container01Content {
+
+      .titleHuman{
+        font-size: 70px;
+        font-weight: 400;
+       }
+
       h1 {
-        font-size: 90px;
+        font-size: 30px;
       }
   
       p {
         margin: 20px 0px;
-        font-size: 30px;
+        font-size: 15px;
         font-weight: 300;
       }
     }
@@ -103,6 +109,8 @@
     height: 100vh;
     width: 100vw;
    }
+
+   
   
     .titleSection {
       font-size: 50px;
@@ -118,19 +126,23 @@
   }
 
 
-  @media (max-width: 425px) {
-
-    .container00{
-        height: 100vh;
-        width: 100vw;
-    }
+  @media  only screen and (max-width: 375px) {
+    
+    
     .container01Content {
+
+
       h1 {
-        font-size: 40px;
+        font-size: 10px;
       }
   
       p {
-        font-size: 16px;
+        font-size: 10px;
+      }
+
+      .titleHuman{
+        font-size: 40px;
+        font-weight: 500;
       }
     }
   
@@ -167,7 +179,10 @@
       margin-left: 7%;
       padding-top: 30%;
     }
-  }
+    
+    }
+    
+  
 
 
   
